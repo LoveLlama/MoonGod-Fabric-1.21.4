@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_21",
+  "package": "me.moon.mixin.mixins",
+  "mixins": [
+  	"HandledScreenAccessor",
+  	"KeyBindingAccessor",
+  	"MixinBlockLiquid",
+    "MixinEntity",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinGuiScreen",
+    "MixinLayerBipedArmor",
+    "MixinLocaleFont",
+    "MixinMinecraft",
+    "MixinModelPlayer",
+    "MixinMovementInputFromOptions",
+    "MixinNetworkManager",
+    "MixinPlayerControllerMP",
+    "MixinWorld",
+    "MixinRenderTickCounter",
+    "MixinNoSlow"
+  ]
+}

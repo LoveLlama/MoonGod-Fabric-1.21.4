@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "moon",
+	"version": "${version}",
+	"name": "MoonGod",
+	"description": "Crystal PvP Client",
+	"authors": [
+		"404"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/moon/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			{
+				"value": "me.moon.Moon",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		{
+			"config": "mixins.moon.json",
+			"environment": "client"
+		}
+	],
+	"accessWidener": "moon.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	}
+}
